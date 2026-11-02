@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "id": "operations",
+      "revision": "r4",
+      "text": "Requests may be retried for 24 hours. Duplicate receipts are retained for 48 hours. Replays must preserve the original booking identifier."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C-01",
+      "statement": "The retry window lasts one day.",
+      "source": "operations",
+      "revision": "r4",
+      "quote": "Requests may be retried for 24 hours."
+    },
+    {
+      "id": "C-02",
+      "statement": "Duplicate receipts are retained for two days.",
+      "source": "operations",
+      "revision": "r4",
+      "quote": "Duplicate receipts are retained for 48 hours."
+    }
+  ],
+  "approvals": []
+}
